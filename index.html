@@ -23,7 +23,81 @@
     </head>
     <body class="font-manrope">
         <header>
+            <!-- Navbar section start -->
+            <nav class="container mx-auto mt-11">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            </div>
+                            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>contact</a></li>
+                            </ul>
+                        </div>
+                        <a class="text-[#131318] lg:text-4xl text-[26px] font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                    </div>
 
+
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu-horizontal gap-11">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>contact</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="navbar-end lg:mr-0 mr-5">
+                        <img class="mr-6 hidden lg:block" src="/Images/Frame.png" alt="">
+                      <a class=" lg:px-6 px-4 lg:py-[15px] py-[8px] border-none rounded-lg bg-[#FF4240] hover:bg-[#de2e2b] lg:text-xl text-lg font-bold text-white duration-500 cursor-pointer">Get Ticket</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar section end -->
+
+            <!-- Banner section start -->
+            <section class="container lg:mx-auto  lg:mt-14 mt-7">
+                <div class="lg:mx-0 mx-6">
+                    <div class="carousel w-full">
+                        <div id="slide1" class="carousel-item relative w-full">
+                          <img class="rounded-2xl" src="/Images/1.png" class="w-full" />
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a> 
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                          </div>
+                        </div> 
+                        <div id="slide2" class="carousel-item relative w-full">
+                          <img class="rounded-2xl" src="/Images/1(1).png" class="w-full" />
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a> 
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                          </div>
+                        </div> 
+                        <div id="slide3" class="carousel-item relative w-full">
+                          <img src="/Images/1(2).png" class="w-full" />
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a> 
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                          </div>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="lg:mx-0 mx-6">
+                    <div class="bg-[#131318] rounded-2xl lg:w-[566px] w-[377px] lg:py-8 py-4 lg:absolute lg:top-[700px] lg:left-[1120px] lg:mt-0 mt-4">
+                        <h3 class="text-white lg:text-2xl text-lg font-extrabold mx-auto ml-8">Meet all the heroes from the field</h3>
+                        <p class="text-[#FFFFFF99] font-medium lg:text-base text-sm lg:w-[502px] w-[310px] lg:leading-[26px] leading-[24px] lg:mt-4 mt-2 ml-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner section end -->
         </header>
         <body>
             
